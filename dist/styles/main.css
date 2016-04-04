@@ -1,0 +1,41 @@
+body {
+  font-family: Helvetica; }
+
+nav {
+  display: table;
+  width: 100%; }
+
+ul {
+  background-color: #2C3E50;
+  list-style: none;
+  line-height: 2;
+  display: table-row;
+  width: 100%;
+  text-align: center; }
+
+li {
+  display: table-cell;
+  font-size: 2rem; }
+  li:nth-child(1) {
+    padding-left: 50px; }
+  li:nth-child(5) {
+    padding-right: 50px; }
+
+a {
+  color: white;
+  text-decoration: none; }
+
+.profile {
+  margin: 30px auto;
+  width: 60%;
+  text-align: center;
+  line-height: 1.2; }
+  .profile p {
+    font-size: 1.5rem;
+    line-height: 1.5; }
+
+img {
+  border: 3px solid black;
+  border-radius: 5px;
+  width: 100%;
+  display: inline-block; }
